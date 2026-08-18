@@ -1,0 +1,99 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    margin: 0;
+}
+
+/* Class selector */
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #164a7b;
+}
+
+/* Form elements */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+/* Attribute selector */
+input[type="radio"] {
+    width: auto;
+}
+
+.radio-group {
+    margin-top: 10px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 25px;
+    background: #164a7b;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d3154;
+}
+
+/* Media elements */
+.media {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.media img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+video,
+audio {
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}

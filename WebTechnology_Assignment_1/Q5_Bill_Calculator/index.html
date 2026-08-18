@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Supermarket Bill Calculator</title>
+
+</head>
+
+<body>
+
+<h1>Supermarket Bill Calculator</h1>
+
+<h3>Product 1</h3>
+
+<label>Quantity:</label>
+<input type="number" id="q1" min="0">
+
+<label>Unit Price:</label>
+<input type="number" id="p1" min="0">
+
+<h3>Product 2</h3>
+
+<label>Quantity:</label>
+<input type="number" id="q2" min="0">
+
+<label>Unit Price:</label>
+<input type="number" id="p2" min="0">
+
+<h3>Product 3</h3>
+
+<label>Quantity:</label>
+<input type="number" id="q3" min="0">
+
+<label>Unit Price:</label>
+<input type="number" id="p3" min="0">
+
+<br><br>
+
+<button onclick="calculateBill()">
+    Generate Bill
+</button>
+
+<h2 id="bill"></h2>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

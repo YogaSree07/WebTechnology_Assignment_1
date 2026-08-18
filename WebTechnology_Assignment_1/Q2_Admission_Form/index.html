@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Admission Form</h1>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" required>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Enter mobile number">
+
+        <label>Gender</label>
+
+        <div class="radio-group">
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+        </div>
+
+        <label>Course</label>
+
+        <select>
+            <option>Select Course</option>
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Artificial Intelligence</option>
+            <option>Data Science</option>
+        </select>
+
+        <label>Address</label>
+        <textarea rows="4" placeholder="Enter address"></textarea>
+
+        <label>Upload Photo</label>
+        <input type="file">
+
+        <label>Favourite Color</label>
+        <input type="color">
+
+        <label>Admission Percentage</label>
+        <input type="number" min="0" max="100">
+
+        <button type="submit">Submit Application</button>
+
+    </form>
+
+    <div class="media">
+        <h2>College Introduction</h2>
+
+        <img
+            src="https://via.placeholder.com/600x200"
+            alt="College Image">
+
+        <video controls>
+            <source src="" type="video/mp4">
+            Your browser does not support video.
+        </video>
+
+        <audio controls>
+            <source src="" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </div>
+
+</div>
+
+</body>
+</html>
